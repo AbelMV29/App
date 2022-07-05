@@ -34,7 +34,7 @@ namespace App
 
         public bool esPesoPesado()
         {
-            return (esMasculino && peso > 81 || !esMasculino && peso > 81);
+            return (esMasculino && peso > 91 || !esMasculino && peso > 81);
         }
 
         public bool ganoMenosDe3Torneos()
